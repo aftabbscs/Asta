@@ -1,6 +1,6 @@
 FROM quay.io/sampandey001/secktor
 
-RUN git clone https://github.com/Astropeda/Asta-Md /root/Astropeda
+RUN git clone https://github.com/anonphoenix007/Asta /root/Astropeda
 
 # Clear npm cache and remove node_modules directories
 RUN npm cache clean --force
